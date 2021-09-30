@@ -1,0 +1,23 @@
+.carousel-inner{
+    margin: 0 0 100px 0;
+}
+
+.carousel-inner .carousel-item .d-block{
+    width: 900px;
+    height: 400px;
+    margin: 0 auto; 
+}
+
+.mark1 { 
+    background: rgb(216, 48, 48);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.show {
+    color: rgb(5, 5, 5);
+}
+.show:hover {
+    color: aqua;
+    text-decoration: underline;
+}

@@ -1,0 +1,117 @@
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size:16px;
+	color:#444;
+}
+
+.pic{
+	background:url(bg.jpg);
+	width:1300px;
+	height:700px;
+	margin:20px;	
+	color:Crimson;
+}
+
+.content{
+	margin-top:50px;
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%,-100%);
+	width: 400px;
+	height: 350px;
+	box-sizing: border-box;
+	padding: 40px;
+	color: #000;
+}
+
+.content form p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #000;
+}
+.content form input{
+	margin-bottom: 20px;
+	width: 100%;
+
+}
+.content form input[type=email]
+{
+	border:none;
+	border-bottom: 1px solid #ffffff;
+	background-color: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	display: 16px;
+}
+.content form input[type=password]
+{
+	border:none;
+	border-bottom: 1px solid #ffffff;
+	background-color: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	display: 16px;
+}
+.content form input[type=text]
+{
+	border:none;
+	border-bottom: 1px solid #ffffff;
+	background-color: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	display: 16px;
+}
+
+.login{
+	position: absolute;
+	top: 100%;
+	left: 10%;
+	color: #000;
+}
+
+.LogIn{
+	width:70px;
+	height:35px;
+	border: 1px solid#fff;
+	color: #000;
+	text-decoration: none;
+}
+
+.logo{
+	text-align:center;
+}
+
+/*header*/
+header{
+	background-color: white;
+	padding: 20px 10px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;	
+}
+
+nav.menu1 a{
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-size: 12pt;
+	padding-right: 90px;
+	color: #222;
+	text-decoration: none;
+}
+nav.menu1 a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+
+
